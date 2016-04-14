@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9546A101CBFE94B007C839E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9546A0F1CBFE94B007C839E /* AppDelegate.swift */; };
+		F9546A121CBFE94B007C839E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9546A111CBFE94B007C839E /* ViewController.swift */; };
+		F9546A151CBFE94C007C839E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9546A131CBFE94C007C839E /* Main.storyboard */; };
+		F9546A171CBFE94C007C839E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9546A161CBFE94C007C839E /* Assets.xcassets */; };
+		F9546A1A1CBFE94C007C839E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9546A181CBFE94C007C839E /* LaunchScreen.storyboard */; };
+		F9546A251CBFE94C007C839E /* mobilabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9546A241CBFE94C007C839E /* mobilabTests.swift */; };
+		F9546A301CBFE94C007C839E /* mobilabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9546A2F1CBFE94C007C839E /* mobilabUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9546A211CBFE94C007C839E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9546A041CBFE94B007C839E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9546A0B1CBFE94B007C839E;
+			remoteInfo = mobilab;
+		};
+		F9546A2C1CBFE94C007C839E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9546A041CBFE94B007C839E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9546A0B1CBFE94B007C839E;
+			remoteInfo = mobilab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9546A0C1CBFE94B007C839E /* mobilab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobilab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9546A0F1CBFE94B007C839E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F9546A111CBFE94B007C839E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F9546A141CBFE94C007C839E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9546A161CBFE94C007C839E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9546A191CBFE94C007C839E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9546A1B1CBFE94C007C839E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9546A201CBFE94C007C839E /* mobilabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobilabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9546A241CBFE94C007C839E /* mobilabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobilabTests.swift; sourceTree = "<group>"; };
+		F9546A261CBFE94C007C839E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9546A2B1CBFE94C007C839E /* mobilabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobilabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9546A2F1CBFE94C007C839E /* mobilabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mobilabUITests.swift; sourceTree = "<group>"; };
+		F9546A311CBFE94C007C839E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9546A091CBFE94B007C839E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9546A1D1CBFE94C007C839E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9546A281CBFE94C007C839E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9546A031CBFE94B007C839E = {
+			isa = PBXGroup;
+			children = (
+				F9546A0E1CBFE94B007C839E /* mobilab */,
+				F9546A231CBFE94C007C839E /* mobilabTests */,
+				F9546A2E1CBFE94C007C839E /* mobilabUITests */,
+				F9546A0D1CBFE94B007C839E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9546A0D1CBFE94B007C839E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9546A0C1CBFE94B007C839E /* mobilab.app */,
+				F9546A201CBFE94C007C839E /* mobilabTests.xctest */,
+				F9546A2B1CBFE94C007C839E /* mobilabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9546A0E1CBFE94B007C839E /* mobilab */ = {
+			isa = PBXGroup;
+			children = (
+				F9546A0F1CBFE94B007C839E /* AppDelegate.swift */,
+				F9546A111CBFE94B007C839E /* ViewController.swift */,
+				F9546A131CBFE94C007C839E /* Main.storyboard */,
+				F9546A161CBFE94C007C839E /* Assets.xcassets */,
+				F9546A181CBFE94C007C839E /* LaunchScreen.storyboard */,
+				F9546A1B1CBFE94C007C839E /* Info.plist */,
+			);
+			path = mobilab;
+			sourceTree = "<group>";
+		};
+		F9546A231CBFE94C007C839E /* mobilabTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9546A241CBFE94C007C839E /* mobilabTests.swift */,
+				F9546A261CBFE94C007C839E /* Info.plist */,
+			);
+			path = mobilabTests;
+			sourceTree = "<group>";
+		};
+		F9546A2E1CBFE94C007C839E /* mobilabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9546A2F1CBFE94C007C839E /* mobilabUITests.swift */,
+				F9546A311CBFE94C007C839E /* Info.plist */,
+			);
+			path = mobilabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9546A0B1CBFE94B007C839E /* mobilab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9546A341CBFE94C007C839E /* Build configuration list for PBXNativeTarget "mobilab" */;
+			buildPhases = (
+				F9546A081CBFE94B007C839E /* Sources */,
+				F9546A091CBFE94B007C839E /* Frameworks */,
+				F9546A0A1CBFE94B007C839E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mobilab;
+			productName = mobilab;
+			productReference = F9546A0C1CBFE94B007C839E /* mobilab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9546A1F1CBFE94C007C839E /* mobilabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9546A371CBFE94C007C839E /* Build configuration list for PBXNativeTarget "mobilabTests" */;
+			buildPhases = (
+				F9546A1C1CBFE94C007C839E /* Sources */,
+				F9546A1D1CBFE94C007C839E /* Frameworks */,
+				F9546A1E1CBFE94C007C839E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9546A221CBFE94C007C839E /* PBXTargetDependency */,
+			);
+			name = mobilabTests;
+			productName = mobilabTests;
+			productReference = F9546A201CBFE94C007C839E /* mobilabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9546A2A1CBFE94C007C839E /* mobilabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9546A3A1CBFE94C007C839E /* Build configuration list for PBXNativeTarget "mobilabUITests" */;
+			buildPhases = (
+				F9546A271CBFE94C007C839E /* Sources */,
+				F9546A281CBFE94C007C839E /* Frameworks */,
+				F9546A291CBFE94C007C839E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9546A2D1CBFE94C007C839E /* PBXTargetDependency */,
+			);
+			name = mobilabUITests;
+			productName = mobilabUITests;
+			productReference = F9546A2B1CBFE94C007C839E /* mobilabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9546A041CBFE94B007C839E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Arilson do Carmo";
+				TargetAttributes = {
+					F9546A0B1CBFE94B007C839E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F9546A1F1CBFE94C007C839E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F9546A0B1CBFE94B007C839E;
+					};
+					F9546A2A1CBFE94C007C839E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F9546A0B1CBFE94B007C839E;
+					};
+				};
+			};
+			buildConfigurationList = F9546A071CBFE94B007C839E /* Build configuration list for PBXProject "mobilab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9546A031CBFE94B007C839E;
+			productRefGroup = F9546A0D1CBFE94B007C839E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9546A0B1CBFE94B007C839E /* mobilab */,
+				F9546A1F1CBFE94C007C839E /* mobilabTests */,
+				F9546A2A1CBFE94C007C839E /* mobilabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9546A0A1CBFE94B007C839E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9546A1A1CBFE94C007C839E /* LaunchScreen.storyboard in Resources */,
+				F9546A171CBFE94C007C839E /* Assets.xcassets in Resources */,
+				F9546A151CBFE94C007C839E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9546A1E1CBFE94C007C839E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9546A291CBFE94C007C839E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9546A081CBFE94B007C839E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9546A121CBFE94B007C839E /* ViewController.swift in Sources */,
+				F9546A101CBFE94B007C839E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9546A1C1CBFE94C007C839E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9546A251CBFE94C007C839E /* mobilabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9546A271CBFE94C007C839E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9546A301CBFE94C007C839E /* mobilabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9546A221CBFE94C007C839E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9546A0B1CBFE94B007C839E /* mobilab */;
+			targetProxy = F9546A211CBFE94C007C839E /* PBXContainerItemProxy */;
+		};
+		F9546A2D1CBFE94C007C839E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9546A0B1CBFE94B007C839E /* mobilab */;
+			targetProxy = F9546A2C1CBFE94C007C839E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9546A131CBFE94C007C839E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9546A141CBFE94C007C839E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9546A181CBFE94C007C839E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9546A191CBFE94C007C839E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9546A321CBFE94C007C839E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9546A331CBFE94C007C839E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9546A351CBFE94C007C839E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mobilab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.arilsoncarmo.mobilab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9546A361CBFE94C007C839E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mobilab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.arilsoncarmo.mobilab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F9546A381CBFE94C007C839E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mobilabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.arilsoncarmo.mobilabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobilab.app/mobilab";
+			};
+			name = Debug;
+		};
+		F9546A391CBFE94C007C839E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mobilabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.arilsoncarmo.mobilabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobilab.app/mobilab";
+			};
+			name = Release;
+		};
+		F9546A3B1CBFE94C007C839E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = mobilabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.arilsoncarmo.mobilabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = mobilab;
+			};
+			name = Debug;
+		};
+		F9546A3C1CBFE94C007C839E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = mobilabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.arilsoncarmo.mobilabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = mobilab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9546A071CBFE94B007C839E /* Build configuration list for PBXProject "mobilab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9546A321CBFE94C007C839E /* Debug */,
+				F9546A331CBFE94C007C839E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9546A341CBFE94C007C839E /* Build configuration list for PBXNativeTarget "mobilab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9546A351CBFE94C007C839E /* Debug */,
+				F9546A361CBFE94C007C839E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9546A371CBFE94C007C839E /* Build configuration list for PBXNativeTarget "mobilabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9546A381CBFE94C007C839E /* Debug */,
+				F9546A391CBFE94C007C839E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F9546A3A1CBFE94C007C839E /* Build configuration list for PBXNativeTarget "mobilabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9546A3B1CBFE94C007C839E /* Debug */,
+				F9546A3C1CBFE94C007C839E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9546A041CBFE94B007C839E /* Project object */;
+}
