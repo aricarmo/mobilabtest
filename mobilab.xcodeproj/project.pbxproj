@@ -17,9 +17,10 @@
 		F9546A301CBFE94C007C839E /* mobilabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9546A2F1CBFE94C007C839E /* mobilabUITests.swift */; };
 		F9546A401CBFF643007C839E /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9546A3F1CBFF643007C839E /* ImageCell.swift */; };
 		F9546A421CBFF90D007C839E /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9546A411CBFF90D007C839E /* RoundedView.swift */; };
-		F9546A471CC52C83007C839E /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9546A461CC52C83007C839E /* Picture.swift */; };
+		F9546A471CC52C83007C839E /* PictureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9546A461CC52C83007C839E /* PictureModel.swift */; };
 		F9546A4A1CC5308C007C839E /* ApiConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9546A491CC5308C007C839E /* ApiConnection.swift */; };
 		F9546A4C1CC530C1007C839E /* PatternColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9546A4B1CC530C1007C839E /* PatternColors.swift */; };
+		F9546A4E1CC5483B007C839E /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9546A4D1CC5483B007C839E /* ApiConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,9 +59,10 @@
 		F9546A311CBFE94C007C839E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9546A3F1CBFF643007C839E /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		F9546A411CBFF90D007C839E /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
-		F9546A461CC52C83007C839E /* Picture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		F9546A461CC52C83007C839E /* PictureModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureModel.swift; sourceTree = "<group>"; };
 		F9546A491CC5308C007C839E /* ApiConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConnection.swift; sourceTree = "<group>"; };
 		F9546A4B1CC530C1007C839E /* PatternColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatternColors.swift; sourceTree = "<group>"; };
+		F9546A4D1CC5483B007C839E /* ApiConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 				F9546A1B1CBFE94C007C839E /* Info.plist */,
 				F9546A0F1CBFE94B007C839E /* AppDelegate.swift */,
 				F9546A491CC5308C007C839E /* ApiConnection.swift */,
+				F9546A4D1CC5483B007C839E /* ApiConstants.swift */,
 			);
 			path = mobilab;
 			sourceTree = "<group>";
@@ -183,7 +186,7 @@
 		F9546A481CC52C88007C839E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F9546A461CC52C83007C839E /* Picture.swift */,
+				F9546A461CC52C83007C839E /* PictureModel.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -373,7 +376,8 @@
 				F9546A4A1CC5308C007C839E /* ApiConnection.swift in Sources */,
 				F9546A421CBFF90D007C839E /* RoundedView.swift in Sources */,
 				F9546A121CBFE94B007C839E /* HomeController.swift in Sources */,
-				F9546A471CC52C83007C839E /* Picture.swift in Sources */,
+				F9546A471CC52C83007C839E /* PictureModel.swift in Sources */,
+				F9546A4E1CC5483B007C839E /* ApiConstants.swift in Sources */,
 				F9546A101CBFE94B007C839E /* AppDelegate.swift in Sources */,
 				F9546A401CBFF643007C839E /* ImageCell.swift in Sources */,
 				F9546A4C1CC530C1007C839E /* PatternColors.swift in Sources */,
