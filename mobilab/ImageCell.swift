@@ -11,4 +11,6 @@ import UIKit
 class ImageCell: UICollectionViewCell {
     @IBOutlet weak var lblTitle: UILabel!
     @IBOutlet weak var imgHero: UIImageView!
+    @IBOutlet weak var btnDown: UIButton!
+    @IBOutlet weak var btnUp: UIButton!
 }
