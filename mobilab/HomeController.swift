@@ -10,7 +10,7 @@ import UIKit
 
 class HomeController: UICollectionViewController {
 
-    var pictureData: [PictureModel]!
+    var pictureData: [PictureModel] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +20,8 @@ class HomeController: UICollectionViewController {
 
     func loadImages(increment: Bool, connector: ApiConnection = ApiConnection()) {
         connector.getImagesByType(increment, type: "hot") { (result, error) in
-            print(result)
+            self.pictureData = result!
+            self.collectionView?.reloadData()
         }
     }
     override func didReceiveMemoryWarning() {
@@ -29,11 +30,12 @@ class HomeController: UICollectionViewController {
     }
     
     override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 5
+        return self.pictureData.count
     }
     
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as! ImageCell
+        cell.lblTitle.text = pictureData[indexPath.row].title
         return cell;
     }
 }

@@ -10,18 +10,18 @@ import Foundation
 
 class PictureModel {
     var title: String
-    var description: String
-    var link: String
+    var description: String?
+    var link: String?
     var id: String
-    var up: Int = 0
-    var down: Int = 0
+    var up: Int?
+    var down: Int?
     
     init?(data: [String: AnyObject]) {
         title = data["title"] as! String
-        description = data["description"] as! String
-        link = data["link"] as! String
+        description = data["description"] as? String
+        link = data["link"] as? String
         id = data["id"] as! String
-        up = data["up"] as! Int
-        down = data["down"] as! Int
+        up = data["up"] as? Int
+        down = data["down"] as? Int
     }
 }
