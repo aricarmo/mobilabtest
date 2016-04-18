@@ -1,0 +1,6 @@
+framework module Pods_mobilab {
+  umbrella header "Pods-mobilab-umbrella.h"
+
+  export *
+  module * { export * }
+}
