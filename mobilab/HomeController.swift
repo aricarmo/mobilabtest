@@ -11,6 +11,7 @@ import UIKit
 class HomeController: UICollectionViewController {
 
     var pictureData: [PictureModel] = []
+    let imageService = ImageService()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +37,19 @@ class HomeController: UICollectionViewController {
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as! ImageCell
         cell.lblTitle.text = pictureData[indexPath.row].title
+        cell.imgHero.image = nil
+        if let url = self.pictureData[indexPath.row].link {
+            if let img = imageService.getAvatarCache(url) {
+                cell.imgHero.image = img
+            } else {
+                imageService.asyncLoadImageContent(url, completion: { (image) in
+                    let ip = collectionView.indexPathForCell(cell)
+                    if indexPath.isEqual(ip) {
+                        cell.imgHero.image = image
+                    }
+                })
+            }
+        }
         return cell;
     }
 }

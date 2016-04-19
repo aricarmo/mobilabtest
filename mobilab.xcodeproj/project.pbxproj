@@ -21,6 +21,7 @@
 		F9546A4A1CC5308C007C839E /* ApiConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9546A491CC5308C007C839E /* ApiConnection.swift */; };
 		F9546A4C1CC530C1007C839E /* PatternColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9546A4B1CC530C1007C839E /* PatternColors.swift */; };
 		F9546A4E1CC5483B007C839E /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9546A4D1CC5483B007C839E /* ApiConstants.swift */; };
+		F9546A511CC56F88007C839E /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9546A501CC56F88007C839E /* ImageService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		F9546A491CC5308C007C839E /* ApiConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConnection.swift; sourceTree = "<group>"; };
 		F9546A4B1CC530C1007C839E /* PatternColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatternColors.swift; sourceTree = "<group>"; };
 		F9546A4D1CC5483B007C839E /* ApiConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
+		F9546A501CC56F88007C839E /* ImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		F9546A0E1CBFE94B007C839E /* mobilab */ = {
 			isa = PBXGroup;
 			children = (
+				F9546A4F1CC56F75007C839E /* Services */,
 				F9546A481CC52C88007C839E /* Model */,
 				F9546A3E1CBFF621007C839E /* Views */,
 				F9546A3D1CBFF61B007C839E /* Controllers */,
@@ -189,6 +192,14 @@
 				F9546A461CC52C83007C839E /* PictureModel.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		F9546A4F1CC56F75007C839E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F9546A501CC56F88007C839E /* ImageService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -375,6 +386,7 @@
 			files = (
 				F9546A4A1CC5308C007C839E /* ApiConnection.swift in Sources */,
 				F9546A421CBFF90D007C839E /* RoundedView.swift in Sources */,
+				F9546A511CC56F88007C839E /* ImageService.swift in Sources */,
 				F9546A121CBFE94B007C839E /* HomeController.swift in Sources */,
 				F9546A471CC52C83007C839E /* PictureModel.swift in Sources */,
 				F9546A4E1CC5483B007C839E /* ApiConstants.swift in Sources */,
